@@ -1,0 +1,6 @@
+@Parcial3_sumaran_HostAddress = http://localhost:5267
+
+GET {{Parcial3_sumaran_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
