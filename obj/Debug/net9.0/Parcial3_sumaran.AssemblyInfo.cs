@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Parcial3_sumaran")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e42e43352b313b7aeafb58f382f84da822735644")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b8f7d483a21cf52ddbe93798466802c7d28fb2ac")]
 [assembly: System.Reflection.AssemblyProductAttribute("Parcial3_sumaran")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Parcial3_sumaran")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
