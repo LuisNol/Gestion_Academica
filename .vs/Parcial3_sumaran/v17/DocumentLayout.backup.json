@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "E:\\VISUALCODE\\Parcial3_sumaran\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{85375334-FF7E-4792-89F7-67EECE204D32}|Parcial3_sumaran.csproj|e:\\visualcode\\parcial3_sumaran\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{85375334-FF7E-4792-89F7-67EECE204D32}|Parcial3_sumaran.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{85375334-FF7E-4792-89F7-67EECE204D32}|Parcial3_sumaran.csproj|e:\\visualcode\\parcial3_sumaran\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{85375334-FF7E-4792-89F7-67EECE204D32}|Parcial3_sumaran.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -31,10 +35,6 @@
       "RelativeMoniker": "D:0:0:{85375334-FF7E-4792-89F7-67EECE204D32}|Parcial3_sumaran.csproj|solutionrelative:parcial3_sumaran.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{85375334-FF7E-4792-89F7-67EECE204D32}|Parcial3_sumaran.csproj|e:\\visualcode\\parcial3_sumaran\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{85375334-FF7E-4792-89F7-67EECE204D32}|Parcial3_sumaran.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{85375334-FF7E-4792-89F7-67EECE204D32}|Parcial3_sumaran.csproj|e:\\visualcode\\parcial3_sumaran\\parcial3_sumaran.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
       "RelativeMoniker": "D:0:0:{85375334-FF7E-4792-89F7-67EECE204D32}|Parcial3_sumaran.csproj|solutionrelative:parcial3_sumaran.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
     }
@@ -46,35 +46,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "CursoController.cs",
-              "DocumentMoniker": "E:\\VISUALCODE\\Parcial3_sumaran\\Controllers\\CursoController.cs",
-              "RelativeDocumentMoniker": "Controllers\\CursoController.cs",
-              "ToolTip": "E:\\VISUALCODE\\Parcial3_sumaran\\Controllers\\CursoController.cs",
-              "RelativeToolTip": "Controllers\\CursoController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-03T22:30:03.266Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "GestionAcademicaContext.cs",
-              "DocumentMoniker": "E:\\VISUALCODE\\Parcial3_sumaran\\Models\\GestionAcademicaContext.cs",
-              "RelativeDocumentMoniker": "Models\\GestionAcademicaContext.cs",
-              "ToolTip": "E:\\VISUALCODE\\Parcial3_sumaran\\Models\\GestionAcademicaContext.cs",
-              "RelativeToolTip": "Models\\GestionAcademicaContext.cs",
-              "ViewState": "AgIAADAAAAAAAAAAAAAowAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-03T21:38:41.779Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "Curso.cs",
               "DocumentMoniker": "E:\\VISUALCODE\\Parcial3_sumaran\\Models\\Curso.cs",
               "RelativeDocumentMoniker": "Models\\Curso.cs",
@@ -86,7 +62,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Parcial3_sumaran.csproj",
               "DocumentMoniker": "E:\\VISUALCODE\\Parcial3_sumaran\\Parcial3_sumaran.csproj",
               "RelativeDocumentMoniker": "Parcial3_sumaran.csproj",
@@ -98,7 +74,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Docente.cs",
               "DocumentMoniker": "E:\\VISUALCODE\\Parcial3_sumaran\\Models\\Docente.cs",
               "RelativeDocumentMoniker": "Models\\Docente.cs",
@@ -110,20 +86,57 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\VISUALCODE\\Parcial3_sumaran\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "E:\\VISUALCODE\\Parcial3_sumaran\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABwAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-03T21:27:08.277Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\VISUALCODE\\Parcial3_sumaran\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "E:\\VISUALCODE\\Parcial3_sumaran\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAADqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-03T21:42:42.094Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GestionAcademicaContext.cs",
+              "DocumentMoniker": "E:\\VISUALCODE\\Parcial3_sumaran\\Models\\GestionAcademicaContext.cs",
+              "RelativeDocumentMoniker": "Models\\GestionAcademicaContext.cs",
+              "ToolTip": "E:\\VISUALCODE\\Parcial3_sumaran\\Models\\GestionAcademicaContext.cs",
+              "RelativeToolTip": "Models\\GestionAcademicaContext.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAowAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T21:38:41.779Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "CursoController.cs",
+              "DocumentMoniker": "E:\\VISUALCODE\\Parcial3_sumaran\\Controllers\\CursoController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CursoController.cs",
+              "ToolTip": "E:\\VISUALCODE\\Parcial3_sumaran\\Controllers\\CursoController.cs",
+              "RelativeToolTip": "Controllers\\CursoController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T22:30:03.266Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "WeatherForecast.cs",
               "DocumentMoniker": "E:\\VISUALCODE\\Parcial3_sumaran\\WeatherForecast.cs",
               "RelativeDocumentMoniker": "WeatherForecast.cs",
@@ -132,18 +145,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-03T21:50:41.704Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "E:\\VISUALCODE\\Parcial3_sumaran\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "E:\\VISUALCODE\\Parcial3_sumaran\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-07-03T21:42:42.094Z"
             },
             {
               "$type": "Document",

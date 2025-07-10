@@ -162,3 +162,7 @@ E:\VISUALCODE\Parcial3_sumaran\obj\Debug\net9.0\refint\Parcial3_sumaran.dll
 E:\VISUALCODE\Parcial3_sumaran\obj\Debug\net9.0\Parcial3_sumaran.pdb
 E:\VISUALCODE\Parcial3_sumaran\obj\Debug\net9.0\Parcial3_sumaran.genruntimeconfig.cache
 E:\VISUALCODE\Parcial3_sumaran\obj\Debug\net9.0\ref\Parcial3_sumaran.dll
+E:\VISUALCODE\Parcial3_sumaran\bin\Debug\net9.0\appsettings.Docker.json
+E:\VISUALCODE\Parcial3_sumaran\bin\Debug\net9.0\Npgsql.dll
+E:\VISUALCODE\Parcial3_sumaran\bin\Debug\net9.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+E:\VISUALCODE\Parcial3_sumaran\obj\Debug\net9.0\Parcial3_sumaran.sourcelink.json
