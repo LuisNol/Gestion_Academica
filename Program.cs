@@ -24,7 +24,7 @@ builder.Services.AddCors(options =>
 
 var app = builder.Build();
 
-// Redirección a Swagger
+// ✅ Redirigir a Swagger
 app.Use(async (context, next) =>
 {
     if (context.Request.Path == "/")
@@ -35,17 +35,15 @@ app.Use(async (context, next) =>
     await next();
 });
 
-if (app.Environment.IsDevelopment())
-{
-    app.MapOpenApi();
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
+// ✅ Habilitar Swagger en cualquier entorno (incluye producción en Render)
+app.MapOpenApi();
+app.UseSwagger();
+app.UseSwaggerUI();
 
-// ⚠️ Omitir si no necesitas HTTPS dentro del contenedor
-// app.UseHttpsRedirection();
+// app.UseHttpsRedirection();  // opcional en Docker
 
 app.UseCors("AllowSpecificOrigin");
 app.UseAuthorization();
 app.MapControllers();
 app.Run();
+
