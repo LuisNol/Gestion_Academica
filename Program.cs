@@ -3,16 +3,16 @@ using Parcial3_sumaran.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add DbContext with SQL Server
+// 👇 Esto es clave para Render
+builder.WebHost.UseUrls("http://0.0.0.0:8080");
+
 builder.Services.AddDbContext<GestionAcademicaContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("connectionDb")));
 
-// Add services to the container.
 builder.Services.AddControllers();
 builder.Services.AddOpenApi();
 builder.Services.AddSwaggerGen();
 
-// Configure CORS
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowSpecificOrigin",
@@ -24,7 +24,7 @@ builder.Services.AddCors(options =>
 
 var app = builder.Build();
 
-// Redirect root to Swagger UI
+// Redirección a Swagger
 app.Use(async (context, next) =>
 {
     if (context.Request.Path == "/")
@@ -35,7 +35,6 @@ app.Use(async (context, next) =>
     await next();
 });
 
-// Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
     app.MapOpenApi();
@@ -43,13 +42,10 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-app.UseHttpsRedirection();
+// ⚠️ Omitir si no necesitas HTTPS dentro del contenedor
+// app.UseHttpsRedirection();
 
-// Enable CORS (must be before UseAuthorization)
 app.UseCors("AllowSpecificOrigin");
-
 app.UseAuthorization();
-
 app.MapControllers();
-
 app.Run();
